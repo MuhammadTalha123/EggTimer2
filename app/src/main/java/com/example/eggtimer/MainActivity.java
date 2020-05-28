@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             countDownTimer = new CountDownTimer(timerSeekBar.getProgress() * 1000 + 100, 1000) {
 
                 @Override
-                public void onTick(long l) {
+                public void onTick(long. l) {
                     updateTimer((int) l / 1000);
                 }
 
